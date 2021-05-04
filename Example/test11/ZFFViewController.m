@@ -8,6 +8,8 @@
 
 #import "ZFFViewController.h"
 
+#import "UIView+Helper.h" //库里面的文件 
+
 @interface ZFFViewController ()
 
 @end
@@ -18,6 +20,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *myView = [[UIView alloc]init];
+    [myView test];
+    
+    NSLog(@"=================");
+
 }
 
 - (void)didReceiveMemoryWarning
