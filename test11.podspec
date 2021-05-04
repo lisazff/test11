@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/lisazff/test11'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'lisazff' => 'zhangff@ibobei.cn' }
+  s.author           = { 'lisazff' => ' ' }
   s.source           = { :git => 'https://github.com/lisazff/test11.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -32,11 +32,11 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'test11/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'test11' => ['test11/Assets/*.png']
-  # }
+ s.resource_bundles = {
+  'test11' => ['test11/Assets/*.png']
+ }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
